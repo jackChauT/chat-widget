@@ -48,6 +48,7 @@
     delightChatWidget.style.bottom="100px";
     delightChatWidget.style.right="20px";
     delightChatWidget.style.display="none";
+    delightChatWidget.setAttribute("allow","microphone")
     
     isToggle = false
     function toggleDelightChatWidget() {
